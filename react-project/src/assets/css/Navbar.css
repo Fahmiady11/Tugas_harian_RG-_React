@@ -1,0 +1,57 @@
+.navbar1{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.right1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    color:red;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+}
+.left .logOutIn{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    background-color: rgb(248, 190, 0);
+    padding: 8px 12px;
+}
+.button_nav{
+    background-color: rgb(6, 177, 140);
+}
+.logTrue .nameUser{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.logTrue{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logTrue .gambarUser{
+   border-radius: 50%;
+}
+.instagram{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+

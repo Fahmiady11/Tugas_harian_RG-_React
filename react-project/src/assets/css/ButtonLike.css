@@ -1,0 +1,50 @@
+.container-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
+    width: auto;
+}
+.button-like, .button-dislike{
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    background-color: rgb(236, 234, 234);
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    padding: 10px;
+}
+.button-like-active, .button-dislike-active{
+   border: 1px solid rgba(0, 0, 0, 0.096);
+    background-color: rgb(204, 245, 24);
+    position: relative;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    padding: 10px;
+}
+.like-button{
+    color:#61dafb;
+    position: absolute;
+    width: auto;
+}
+.like-button-active{
+    color: #fb61e6;
+    position: absolute;
+    width: auto;
+}
+.container-button p{
+    height: 30px;
+    min-width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border:none;
+    font-size: 24px;
+    font-weight:800px;
+    color: rgb(75, 75, 75);
+    margin-top: 10px;
+}
